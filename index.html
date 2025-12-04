@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Energy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f7;
+      color: #1a1a1a;
+    }
+
+    /* HEADER */
+    .header {
+      background: #0a2342;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .header-left { display: flex; align-items: center; }
+    .logo {
+      height: 55px;
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+    }
+    .company-name { font-size: 22px; font-weight: bold; margin-left: 12px; }
+
+    .nav a {
+      color: #fff;
+      margin-left: 28px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    .nav a:hover {
+      color: #a6c8ff;
+    }
+
+    /* HERO */
+    .hero {
+      height: 420px;
+      background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("banner.jpg") center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      font-weight: 700;
+    }
+    .hero p { font-size: 20px; margin-top: 12px; }
+
+    /* CARDS SECTION */
+    .cards { padding: 50px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; }
+    .card {
+      background: #fff;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    }
+    .card h3 { margin-top: 0; color: #0a2342; }
+
+    /* ABOUT */
+    .section { padding: 60px 40px; background: #fff; margin-top: 20px; }
+    .section h2 { color: #0a2342; }
+    .section p { font-size: 17px; line-height: 1.6; }
+
+    /* CONTACTS */
+    .contacts {
+      background: #0a2342;
+      color: #fff;
+      padding: 50px 40px;
+      text-align: center;
+    }
+    .contacts p { font-size: 18px; }
+
+    /* FOOTER */
+    .footer {
+      background: #07172e;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <img src="logo.png" class="logo" alt="Logo" />
+    <div class="company-name">SMART ENERGY</div>
+  </div>
+
+  <nav class="nav">
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+    <a href="#advantages">Преимущества</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Геофизические и сервисные решения</h1>
+    <p>Оптимизация и контроль разработки месторождений Казахстана</p>
+  </div>
+</section>
+
+<section id="advantages" class="cards">
+  <div class="card">
+    <h3>Геофизические услуги</h3>
+    <p>Высокоточный контроль, сопровождение разработки, исследования скважин.</p>
+  </div>
+
+  <div class="card">
+    <h3>Технологическая поддержка</h3>
+    <p>Промысловые сервисы, исследования, оптимизация добычи.</p>
+  </div>
+
+  <div class="card">
+    <h3>Современное оборудование</h3>
+    <p>Используем передовые технологии и высокоточную технику.</p>
+  </div>
+
+  <div class="card">
+    <h3>Казахстанская компания</h3>
+    <p>100% отечественное предприятие, член АИС, международные партнёры.</p>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>О компании</h2>
+  <p>
+    Наша компания является 100% казахстанским предприятием, успешно работающим в сегменте сервисных нефтегазодобывающих услуг.
+  </p>
+  <p>
+    Мы являемся членом Международной Ассоциации научно‑технического сотрудничества (АИС) и сотрудничаем с ведущими международными компаниями.
+  </p>
+</section>
+
+<section id="services" class="section">
+  <h2>Наши услуги</h2>
+  <p>
+    • Геофизические исследования скважин<br>
+    • Оптимизация разработки месторождений<br>
+    • Контроль добычи и мониторинг<br>
+    • Промысловые технические сервисы
+  </p>
+</section>
+
+<section id="contacts" class="contacts">
+  <h2>Контакты</h2>
+  <p>Email: smartenergyst@bk.ru</p>
+  <p>Телефон: +7 701 136 0021</p>
+  <p>Адрес: 13 мкр, 55</p>
+</section>
+
+<footer class="footer">© 2025 Smart Energy — Все права защищены</footer>
+
+</body>
+</html>
+
+## Наши преимущества
+- Инновационные технологии
+- Экологически чистые процессы
+- Надежные партнёрские отношения
+- Строгое соблюдение стандартов качества
+
+## Наши услуги
+- Добыча и переработка нефти
+- Энергоэффективные решения
+- Технологический аудит
+- Инженерное сопровождение проектов
+
+## Почему выбирают нас
+Мы создаём устойчивые решения для энергетики будущего и стремимся быть лидерами отрасли, сочетая опыт, технологии и ответственность.
+

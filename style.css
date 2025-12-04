@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    background: #0a2342;  /* прежний цвет */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+}
+
+
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 55px;
+    margin-right: 12px;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.8));
+}
+
+
+.company-name {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    height: 380px;
+    background: 
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("banner.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+.hero-text h1 {
+    color: #ffffff;
+    font-size: 42px;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-text p {
+    color: #e6e9ee;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Content sections */
+.section {
+    padding: 40px 50px;
+    background: white;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: #0a2342;
+}
+
+/* Footer */
+.footer {
+    background: #0a2342;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
